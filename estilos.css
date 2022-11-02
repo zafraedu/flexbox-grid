@@ -45,8 +45,10 @@ body {
 
 .card .textos {
   height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .banner {
@@ -56,9 +58,9 @@ body {
   background-size: cover;
   background-position: center center;
 
-  display: grid;
-  grid-template-rows: repeat(3, auto);
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .banner ul {
